@@ -4,11 +4,9 @@ labels: ':boom: Regression'
 about: Report unexpected behavior that worked in previous versions
 ---
 
-<!-- Love Jest? Please consider supporting our collective: 👉  https://opencollective.com/jest/donate -->
-
 ## 💥 Regression Report
 
-A clear and concise description of what the regression is.
+<!-- A clear and concise description of what the regression is. -->
 
 ## Last working version
 
@@ -22,18 +20,24 @@ Steps to reproduce the behavior:
 
 ## Expected behavior
 
-A clear and concise description of what you expected to happen.
+<!-- A clear and concise description of what you expected to happen. -->
 
 ## Link to repl or repo (highly encouraged)
 
-Please provide either a [repl.it demo](https://repl.it/languages/jest) or a minimal repository on GitHub.
-
+<!--
+Please provide either a minimal repository either on GitHub or GitLab.
 Issues without a reproduction link are likely to stall.
+-->
 
-## Run `npx envinfo --preset jest`
-
-Paste the results here:
+## envinfo
 
 ```
+System:
+    OS:
 
+Npm packages:
+    jest:
+    ts-jest:
+    typescript:
+    babel(optional):
 ```

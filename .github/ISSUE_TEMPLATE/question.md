@@ -1,10 +1,8 @@
 ---
 name: 💬 Questions / Help
 label: ':speech_balloon: Question'
-about: If you have questions, please check our Discord or StackOverflow
+about: If you have questions, please check our Slack or StackOverflow
 ---
-
-<!-- Love Jest? Please consider supporting our collective: 👉  https://opencollective.com/jest/donate -->
 
 ## 💬 Questions and Help
 
@@ -12,6 +10,6 @@ about: If you have questions, please check our Discord or StackOverflow
 
 For questions or help please see:
 
-- [The Jest help page](https://jestjs.io/en/help.html)
-- [Our discord channel in Reactiflux](https://discord.gg/MWRhKCj)
-- The [jestjs](https://stackoverflow.com/questions/tagged/jestjs) tag on [StackOverflow](https://stackoverflow.com/questions/ask)
+- [The ts-jest online documentation](https://kulshekhar.github.io/ts-jest)
+- [Our Slack channel](https://bit.ly/3bRHFPQ)
+- The [ts-jest](https://stackoverflow.com/questions/tagged/ts-jest) tag on [StackOverflow](https://stackoverflow.com/questions/ask)
