@@ -1,6 +1,6 @@
 ---
 name: 🐛 Bug report
-labels: Bug Report, Needs Triage, Needs Repro
+labels: ':bug:Bug', Needs Triage, Needs Repo
 about: Create a report to help us improve
 ---
 
@@ -16,7 +16,7 @@ Steps to reproduce the behavior:
 
 <!-- A clear and concise description of what you expected to happen. -->
 
-## Link to repl or repo (highly encouraged)
+## Link to repo (highly encouraged)
 
 <!--
 Please provide either a minimal repository either on GitHub or GitLab.
