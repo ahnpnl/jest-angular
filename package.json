@@ -1,5 +1,6 @@
 {
   "name": "jest-angular",
+  "author": "Ahn Pham <ahnpnl@users.noreply.github.com> (https://github.com/ahnpnl)",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
