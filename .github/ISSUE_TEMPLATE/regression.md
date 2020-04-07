@@ -1,6 +1,6 @@
 ---
 name: 💥 Regression Report
-labels: ':boom: Regression'
+labels: 'Regression :boom:'
 about: Report unexpected behavior that worked in previous versions
 ---
 
@@ -28,6 +28,16 @@ Steps to reproduce the behavior:
 Please provide either a minimal repository either on GitHub or GitLab.
 Issues without a reproduction link are likely to stall.
 -->
+
+## Debug log:
+<!-- You can activate the debug logger by setting the environment variable TS_JEST_LOG="ts-jest.log" before running tests. 
+The output of the logger will be in **ts-jest.log** in CWD, paste it in the below section: 
+-->
+
+```
+# content of ts-jest.log :
+
+```
 
 ## envinfo
 
