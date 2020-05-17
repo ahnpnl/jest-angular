@@ -22,7 +22,7 @@
     "@angular/router": "^9.1.7",
     "core-js": "^3.6.5",
     "rxjs": "^6.5.5",
-    "tslib": "^1.11.2",
+    "tslib": "^1.13.0",
     "zone.js": "~0.10.3"
   },
   "devDependencies": {
@@ -38,14 +38,5 @@
     "ts-node": "~8.10.1",
     "tslint": "~6.1.2",
     "typescript": "~3.8.3"
-  },
-  "jest": {
-    "preset": "jest-preset-angular",
-    "setupFilesAfterEnv": [
-      "<rootDir>/setup-jest.ts"
-    ],
-    "transformIgnorePatterns": [
-      "node_modules"
-    ]
   }
 }
