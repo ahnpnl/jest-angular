@@ -1,7 +1,7 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "baseUrl": "src",
+    "baseUrl": "./",
     "downlevelIteration": true,
     "importHelpers": true,
     "outDir": "./dist/out-tsc",
@@ -20,7 +20,7 @@
       "dom"
     ],
     "paths": {
-      "@shared/*": ["app/shared/*"]
+      "@shared/*": ["src/app/shared/*"]
     }
   }
 }
