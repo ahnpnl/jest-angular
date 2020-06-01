@@ -31,11 +31,11 @@
     "@angular/compiler-cli": "^9.1.9",
     "@angular/language-service": "^9.1.9",
     "@types/jest": "^25.2.3",
-    "@types/node": "~14.0.5",
+    "@types/node": "~14.0.6",
     "codelyzer": "^5.2.2",
     "jest": "^25.5.4",
     "jest-preset-angular": "^8.2.0",
-    "ts-node": "~8.10.1",
+    "ts-node": "~8.10.2",
     "tslint": "~6.1.2",
     "typescript": "~3.8.3"
   }
