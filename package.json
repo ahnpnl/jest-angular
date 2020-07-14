@@ -35,7 +35,7 @@
     "codelyzer": "^6.0.0",
     "jest": "^26.1.0",
     "jest-preset-angular": "^8.2.1",
-    "ts-jest": "^26.1.1",
+    "ts-jest": "^26.1.2",
     "ts-node": "~8.10.2",
     "tslint": "~6.1.0",
     "typescript": "~3.9.6"
