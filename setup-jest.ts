@@ -1,4 +1,4 @@
-import 'jest-preset-angular/setup-jest';
+import 'jest-preset-angular';
 import './jest-global.mocks';
 
 global[ 'CSS' ] = null;
