@@ -5,12 +5,7 @@ const { compilerOptions } = require('./tsconfig.json');
 /** @type {import('@jest/types').Config.InitialOptions} */
 module.exports = {
   preset: 'jest-preset-angular',
-  setupFilesAfterEnv: [
-    '<rootDir>/setup-jest.ts',
-  ],
-  testMatch: [
-    '**/?(*.)+(spec|test).[tj]s?(x)'
-  ],
+  setupFilesAfterEnv: ['<rootDir>/setup-jest.ts'],
   coverageReporters: [
     'json',
     'html',

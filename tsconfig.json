@@ -20,7 +20,13 @@
       "dom"
     ],
     "paths": {
-      "@shared/*": ["src/app/shared/*"]
+      "@shared/*": [
+        "src/app/shared/*"
+      ],
+      "my-lib": [
+        "dist/my-lib/my-lib",
+        "dist/my-lib"
+      ]
     }
   }
 }
