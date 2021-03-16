@@ -33,7 +33,7 @@
     "@angular/compiler-cli": "^11.2.4",
     "@angular/language-service": "^11.2.5",
     "@types/jest": "^26.0.20",
-    "@types/node": "^14.14.34",
+    "@types/node": "^14.14.35",
     "codelyzer": "^6.0.0",
     "jest": "^26.6.3",
     "jest-preset-angular": "^8.4.0",
