@@ -44,6 +44,8 @@ jobs:
 
           # deduplicate lockfile
           yarn dedupe
+
+          git add .
         env:
           YARN_ENABLE_SCRIPTS: 0 # disable postinstall scripts
       - name: Commit lockfile
