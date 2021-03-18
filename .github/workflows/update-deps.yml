@@ -10,9 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-
-      - run: yarn up '*'
-
+      - name: Update all dependencies
+        run: yarn up '*'
       - name: Create pull request
         uses: peter-evans/create-pull-request@v3.1.0
         with:
@@ -21,3 +20,7 @@ jobs:
           title: 'build(devs-dep): update all dependencies'
           body: An updated update of all dependencies.
           labels: dependencies
+      - name: Check outputs
+        run: |
+          echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
+          echo "Pull Request URL - ${{ steps.cpr.outputs.pull-request-url }}"
