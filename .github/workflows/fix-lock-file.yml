@@ -42,7 +42,7 @@ jobs:
           yarn
 
           # deduplicate lockfile
-          yarn deduplicate
+          yarn dedupe
         env:
           YARN_ENABLE_SCRIPTS: 0 # disable postinstall scripts
       - name: Config Git
