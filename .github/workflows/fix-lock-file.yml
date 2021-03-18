@@ -7,7 +7,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    if: github.actor == 'dependabot[bot]'
+    if: github.actor == 'dependabot'
 
     steps:
       - uses: actions/checkout@v2
@@ -35,7 +35,7 @@ jobs:
           # restore package.json from the last commit
           git checkout HEAD -- package.json
 
-          yarn install
+          yarn
 
           # deduplicate lockfile
           yarn deduplicate
@@ -53,5 +53,5 @@ jobs:
         run: |
           cd .`git log -1 --pretty=%s | awk '{ print $9 }'` # ditto
           git add yarn.lock .yarn/cache .pnp.* # only add yarn.lock if not using zero-installs
-          git commit -m "Dependabot autofix"
+          git commit -m "build(devs-dep): dependabot autofix"
           git push
