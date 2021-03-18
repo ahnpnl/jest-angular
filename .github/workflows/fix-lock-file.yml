@@ -24,6 +24,22 @@ jobs:
           node-version: 14.x
       - name: Regenerate lockfile
         run: |
+          # change directory
+          # assuming Angular commit style (build: bump XXX from AAA to BBB in YYY)
+          # use $8 for default commit message style (Bump XXX from AAA to BBB in YYY)
+          cd .`git log -1 --pretty=%s | awk '{ print $9 }'`
+
+          # restore yarn.lock from the previous commit
+          git checkout HEAD^ -- yarn.lock
+
+          # if package.json was not updated, upgrade the dependency
+          # assuming Angular commit style (build: bump XXX from ...)
+          # use $2 for default commit message style (Bump XXX from ...)
+          git diff --name-only HEAD^ HEAD | grep -q 'package.json' || yarn up `git log -1 --pretty=%s | awk '{ print $3 }'`
+
+          # restore package.json from the last commit
+          git checkout HEAD -- package.json
+
           yarn
 
           # deduplicate lockfile
