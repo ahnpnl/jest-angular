@@ -60,3 +60,6 @@ jobs:
 
           # Optional: Skip internal call to `git fetch`
           skip_fetch: true
+        env:
+          # this is provided by github, you don't need to do anything here
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
