@@ -9,8 +9,7 @@
     "test": "jest",
     "test:lib": "jest --config ./projects/my-lib/jest.config.js --no-cache",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "postinstall": "ngcc --properties es2015 browser module main"
+    "e2e": "ng e2e"
   },
   "private": true,
   "dependencies": {
