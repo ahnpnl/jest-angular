@@ -50,11 +50,10 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: 'build(devs-dep): dependabot autofix'
-          branch: ${{ github.head_ref }}
 
           # Optional options appended to `git-commit`
           # See https://git-scm.com/docs/git-commit for a list of available options
-          commit_options: '--no-verify --signoff'
+          commit_options: '--no-verify --signoff --amend'
 
           # Optional options appended to `git-push`
           # See git-push documentation for details: https://git-scm.com/docs/git-push#_options
