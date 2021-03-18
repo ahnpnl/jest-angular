@@ -57,5 +57,5 @@ jobs:
         run: |
           cd .`git log -1 --pretty=%s | awk '{ print $9 }'` # ditto
           git add yarn.lock # only add yarn.lock if not using zero-installs
-          git commit -m "build(devs-dep): dependabot autofix"
-          git push
+          git commit --amend -m "build(devs-dep): dependabot autofix"
+          git push origin --force
