@@ -56,6 +56,8 @@ jobs:
           # See https://git-scm.com/docs/git-commit for a list of available options
           commit_options: '--no-verify --signoff'
 
+          push_options: --force
+
           # Optional: Disable dirty check and always try to create a commit and push
           skip_dirty_check: true
 
